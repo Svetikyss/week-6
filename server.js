@@ -6,7 +6,7 @@ const {bots, playerRecord} = require('./data')
 const {shuffleArray} = require('./utils')
 var Rollbar = require('rollbar')
 var rollbar = new Rollbar({
-    accessToken: '4c8fb28e36c84a69adf3df03adb4cb59',
+    accessToken: 'f4de94e511e34b869687aab00db838f9' ,
     captureUncaught: true,
     captureUnhandledRejections: true,
   })
